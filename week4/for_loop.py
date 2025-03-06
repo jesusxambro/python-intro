@@ -12,8 +12,14 @@ for character in list_of_characters:
 
 print(character) #show how the last value in the loop continues on in the code for this loop
 
+#[0,1,2,3,4]
 for number in range(5):
     print(number)
+
+#[corolla,m3,focus,3,4]
+# corolla = car{ color ="red", transmission =  "auto"}
+for each_car in list_of_cars:
+    print(each_car.color)
 
 # starts at 1 and goes up to but not includes 10. We increment by 2
 for number in range(1,10):
