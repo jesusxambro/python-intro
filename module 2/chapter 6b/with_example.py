@@ -8,12 +8,7 @@ def write_random_numbers_to_file(filename, number_of_lines):
             file.write(f"{random_number}\n")
 
 def read_random_numbers_from_file(filename):
-    # try:
-    with open(filename, 'r') as file:
-        for line in file:
-            print(line)
-    # except Exception as err:
-    #     print(f"An error occurred: {err}")
+    pass
 
 
 
