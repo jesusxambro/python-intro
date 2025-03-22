@@ -14,8 +14,13 @@ def write_random_numbers_to_file(filename, number_of_lines):
         print(f"Random numbers have been successfully written to {filename}.")
     finally:
         print("Operation complete.")
+
+def read_random_numbers_from_file(filename):
+    #TODO: Finish this with try/except, else, and a finally
+    pass
+
 if __name__ == "__main__":
     filename = "random_numbers.txt"
     number_of_lines = 10
-
     write_random_numbers_to_file(filename, number_of_lines)
+    read_random_numbers_from_file(filename)
